@@ -1,4 +1,4 @@
-(kicad_pcb (version 20160815) (host pcbnew "(2016-10-07 revision efdfaeb)-HEAD")
+(kicad_pcb (version 20160815) (host pcbnew "(2016-12-13 revision 188d781)-master")
 
   (general
     (links 221)
@@ -14,7 +14,7 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -22,8 +22,8 @@
     (35 F.Paste user)
     (36 B.SilkS user)
     (37 F.SilkS user)
-    (38 B.Mask user hide)
-    (39 F.Mask user hide)
+    (38 B.Mask user)
+    (39 F.Mask user)
     (40 Dwgs.User user hide)
     (41 Cmts.User user)
     (42 Eco1.User user)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.3048)
+    (last_trace_width 0.1524)
     (user_trace_width 0.1524)
     (user_trace_width 0.2032)
     (user_trace_width 0.254)
@@ -71,7 +71,7 @@
     (pad_to_mask_clearance 0.0762)
     (pad_to_paste_clearance_ratio -0.1)
     (aux_axis_origin 0 0)
-    (visible_elements FFFEF9FF)
+    (visible_elements FFFEF3FF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -3640,7 +3640,7 @@
   (gr_line (start 220.345 127.5842) (end 220.3704 127.5842) (angle 90) (layer F.Mask) (width 0.2))
   (gr_line (start 220.345 129.1082) (end 220.345 127.5842) (angle 90) (layer F.Mask) (width 0.2))
   (gr_line (start 220.345 130.2766) (end 220.345 134.3406) (angle 90) (layer F.Mask) (width 0.2))
-  (gr_text tinyFINITY (at 221.1324 131.0894 270) (layer F.Mask)
+  (gr_text tinyFINITY (at 221.1324 130.8862 270) (layer F.Mask)
     (effects (font (size 1.016 1.016) (thickness 0.254)))
   )
   (gr_line (start 209.183 150) (end 209.183 120) (angle 90) (layer Eco2.User) (width 0.01))
