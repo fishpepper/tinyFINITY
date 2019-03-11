@@ -1,10 +1,15 @@
 # tinyFINITY
 
 This is a reference implementation for hardware for my custom OSD firmware.
+
 See 
+
 https://github.com/fishpepper/tinyOSD
+
 or my blog post
+
 https://fishpepper.de/2019/03/11/tinyosd-tinyfinity-a-tiny-opensource-video-tx-with-full-graphic-osd
+
 for more details.
 
 This work is published under the CERN open hardware license v1.2. 
